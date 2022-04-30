@@ -1,16 +1,16 @@
-# multi-model-classification
+# Multi-model-classification
 
-## classification model 3개 사용
+* classification model 3개 사용
 
-- mask 착용여부 한번
-- 성별 한번
-- Age 한번
+  - Mask classification model
+  - Age classification model
+  - Gender classification model
 
-=> 3개의 결과값을 합쳐서 최종 클래스 결정
+=> 3 model의 예측값을 합쳐서 최종 예측 클래스 결정
 
 ## train
 
-- 3개의 classification을 위해 3개의 dataset가 필요하고, dataset.py에 정의되어 있음
+* dataset.py에 3개의 classification을 위한 각각의 dataset이 정의되어 있음
 
 ```python
 # mask classification
@@ -31,10 +31,4 @@ python train-age.py
 
 ```python
 python inference.py
-```
-
-* test set에서의 오답 확인
-
-```python
-python inference-train.py
 ```
