@@ -11,6 +11,7 @@ https://guiltless-tiglon-d23.notion.site/Mask-Classification-Wrap-up-report-e571
 그림과 같은 구조로 앞단의 레이어들은 동일한 네트워크를 사용하여 파라미터를 공유하도록 만들었고, 뒷단의 레이어들은 각각의 문제(나이, 성별, 마스크 착용 여부)를 풀기 위한 독립된 네트워크로 구현하였습니다.
 
 아래 저장소에서 모델 코드를 자세히 확인하실 수 있습니다.
+
 https://github.com/khyeyoon/Head-Sharing-Multi-Class-Classification
 
 ## Train
